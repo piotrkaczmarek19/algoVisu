@@ -1,0 +1,1 @@
+var algoVisu = new AlgoVisu({code_str: "var two_sum = function(arr, target){var map = [], complement;\nfor (i = 0; i < arr.length; i++){complement = target - arr[i];\nif (arr.indexOf(complement) >= 0){return [arr[i], complement];\n}\n	map.push(arr[i]);\n}\nreturn 'no value found';\n}"});

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AlgoVisu</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h2>2Sum algorithm (single pass)</h2>
+	<div class="code_container"></div>
+	<h3>Code (raw):</h3>
+	<p>	var two_sum = function(arr, target){\nvar map = [], complement;\nfor (i = 0; i &#60; arr.length; i++){complement = target - arr[i];\nif (arr.indexOf(complement) >= 0){return [arr[i], complement];\n}\n	map.push(arr[i]);\n}\nreturn 'no value found';\n}</p>
+</body>
+<script src="algoVisu.js"></script>
+<script src="script.js"></script>
+</html>
